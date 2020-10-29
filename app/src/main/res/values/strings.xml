@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Computervision</string>
+    <string name="computer_vision"> Computer Vision </string>
+
+    <string name="transform_type"> Transform Type </string>
+    <string name="transform_description"> Transform Description </string>
+
+    <string name="transform_image_description"> An example of a stock image transformed but the listed transform. </string>
+
+    <string-array name="transform_types">
+        <item name="deconstruct"> Deconstruct </item>
+        <item name="remove_background"> Remove Background </item>
+        <item name="find_objects">Find Objects</item>
+        <item name="remove_objects"> Remove Objects </item>
+        <item name="more_options"> More Options </item>
+    </string-array>
+    <string-array name="transform_descriptions">
+        <item name="deconstruct_description"> Sorts image by color hex value vertically </item>
+        <item name="remove_background_description"> With found objects areas around the found object can be removed </item>
+        <item name="find_objects_description"> With find Contours the objects in the image can be found </item>
+        <item name="remove_objects_description"> With found objects the found object can be removed from the original image</item>
+        <item name="more_options_description"> Coming soon. </item>
+    </string-array>
+</resources>
